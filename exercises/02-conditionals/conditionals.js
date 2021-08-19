@@ -6,12 +6,16 @@
  * ```
  */
 function compareEquality(a, b) {
-  if (a == b) {
+  if (a === b) {
+    // let a = '50';
+    // let b = 50;
+    // console.log(a==b);
     return "Equal";
   }
+  else 
   return "Not Equal";
 }
-
+console.log(compareEquality());
 /** The function should use the strict inequality operator
  *   3 !== 3; // false
  *   3 !== '3'; // true
@@ -26,9 +30,9 @@ function compareEquality(a, b) {
 
 function testStrictNotEqual(a, b) {
   // Only Change Code Below this Line
-  if (undefined) {
+  if (a!==b) {
     // Only Change Code Above this Line
-
+  
     return "Not Equal";
   }
   return "Equal";
@@ -40,7 +44,8 @@ function testStrictNotEqual(a, b) {
  * Use the logical && operator
  */
 function isTeenager(age) {
-  return; // Return something here
+
+  return age <= 19 && age >=13; // Return something here
 }
 
 /**
@@ -51,7 +56,11 @@ function isTeenager(age) {
  * Hint: See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
  */
 function isNumeric(stringOrNumber) {
-  return; // Return something here
+  if (isNaN(stringOrNumber)) {
+    return true;
+  }
+  console.log(stringOrNumber,"toster");
+  return stringOrNumber; // Return something here
 }
 
 /***
@@ -59,15 +68,20 @@ function isNumeric(stringOrNumber) {
  */
 
 function getLargerNumber(arg1, arg2) {
-  let largestNumber;
-
-  return largestNumber;
+  if (arg1 > arg2){
+    return arg1;
+  }
+    return arg2;
+  
 }
 
 /** Using the modulus operator determine if the argument is an even or odd number */
 
 function isEvenOrOdd(isEven) {
-  return; // return something here
+  isEven = n;
+
+  
+ return n % 2 == 0; // return something here
 }
 
 /****

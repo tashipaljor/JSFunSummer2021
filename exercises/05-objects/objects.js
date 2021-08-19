@@ -6,7 +6,11 @@
  * @return {object}
  */
 
-const createDogObject = () => {};
+const createDogObject = () => {
+  const myDog = {name: "Nick", legs : "4 legs", tails : "1", owners : ["Tashi", "John", "Peter"]}; 
+  return myDog;
+  
+};
 
 /**
  *  CreateGraduateObject function takes in several arguments and combines them together in one object.
@@ -36,11 +40,11 @@ const createDogObject = () => {};
  */
 
 const createGraduateObject = (
-  name,
-  graduationYear,
-  skills,
-  githubLink,
-  linkedInLink
+  name : "Tashi",
+  graduationYear: 2021,
+  skills : ["JavaScript", "FEWD", "CSS"]
+  githubLink : "https://github.com/example/profile",
+  linkedInLink : "https://linkedin.com/profile"
 ) => {};
 
 /**

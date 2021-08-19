@@ -13,21 +13,13 @@
     <script src="targeting-dom.js" defer></script>
   </head>
   <body>
-    <div class="alert alert-info">
-      <div class="container">
-        You will need to inspect this with your browser tools to see if this
-        worked. Press <code class="text-dark">option + command + i</code> on a
-        Mac or <code class="text-dark">ctrl + shift + i</code> on Windows.
-      </div>
-    </div>
-
     <section class="container mt-4 mb-4">
       <h1 class="h2">Single elements</h1>
       <p class="text-muted">
         Do not modify the HTML in this <code>&lt;section&gt;</code>.
       </p>
       <ul>
-        <li="myli">
+        <li>
           Target this first <code>&lt;li&gt;</code> element, but no other
           <code>&lt;li&gt;</code> elements .
         </li>
@@ -94,9 +86,13 @@
         You <strong>should</strong> modify the HTML in this
         <em>&lt;section&gt;</em>.
       </div>
-      <p><a href="#">Ignore me</a> but <a href="#">target me</a>.</p>
+      <p>
+        <a href="#">Ignore me</a> but <a href="#" data-target>target me</a>.
+      </p>
       <button class="btn btn-secondary" type="button">Ignore Me</button>
-      <button class="btn btn-success" type="button">Target Me</button>
+      <button class="btn btn-success" type="button" data-target>
+        Target Me
+      </button>
       <button class="btn btn-secondary" type="button">Ignore Me</button>
       <button class="btn btn-secondary" type="button">Ignore Me</button>
     </section>

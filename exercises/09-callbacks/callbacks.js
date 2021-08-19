@@ -21,8 +21,15 @@
  * console.log( calculate(7, 3, subtract) ); // 4
  */
 
-const calculate = (num1, num2, callback) => {};
+const calculate = (num1, num2, callback) => {
+  callback(num1, num2);
+  const add = (a, b) => a + b;
+  const subtract = (a, b) => a - b;
+  console.log(calculate(8,4, subtract));
+  console.log(calculate(7,3, add));
 
+};
+  
 /**
  * Create a function called "printer".
  * Given a student name, it should format and prints out the value in a visually appealing way
@@ -33,7 +40,9 @@ const calculate = (num1, num2, callback) => {};
  *  - Matina
  * @param {string} name instructor name
  */
+const printer = () => {
 
+};
 /**
  * NOTE that the test will use the "printer" function that you completed in the problem above.
  * Loop through the array of strings.

@@ -4,7 +4,9 @@
  * @param {array} arr
  * @param {function} callback
  */
-const forEach = (arr, callback) => {};
+const forEach = (arr, callback) => {
+  console.log
+};
 
 /**
  * Given an array of strings, remove all letters of each value except the first and last character in the strings
@@ -14,6 +16,16 @@ const forEach = (arr, callback) => {};
  *   showFirstAndLast(['colt','matt', 'tim', 'udemy']); // ["ct", "mt", "tm", "uy"]
  *   showFirstAndLast(['hi', 'goodbye', 'smile']) // ['hi', 'ge', 'se']
  */
-const showFirstAndLast = (arr) => {};
+const showFirstAndLast = (arr) => {
+  const newArr = [];
+  const printSlides = (slide, i) => {
+    
+    
+const char = slide.charAt(slide.length-1);
+console.log(char); 
+  };
+  
+  arr.forEach(printSlides);
+};
 
 export { forEach, showFirstAndLast };

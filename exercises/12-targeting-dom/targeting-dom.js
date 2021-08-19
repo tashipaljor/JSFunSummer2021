@@ -11,5 +11,12 @@
  * Do not change the HTML unless you are instructed to do so.
  */
 (function () {
-  // Put your answers in here
+  const li  = document.querySelector("li");
+  
+console.log(li);
 })();
+
+if (){
+  input === password
+  console.log("Passwords match")
+}

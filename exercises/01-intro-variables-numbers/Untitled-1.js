@@ -75,8 +75,12 @@ console.log(word1 + " " + word2 + word3);*/
 //   : "cannot see movie";
 //   console.log(movieViewerAge);
   
-function getTheCharacterPosition(name, letter) {
-  let characterPosition = "name, letter";
-  console.log(characterPosition.indexOf("n",0));
-  return characterPosition;
-}
+// function getTheCharacterPosition(name, letter) {
+//   let characterPosition = "name, letter";
+//   console.log(characterPosition.indexOf("n",0));
+//   return characterPosition;
+// }
+//  printGreeting = (name) => {
+//   console.log("Hello " + name);
+// };
+// printGreeting("Tashi");
