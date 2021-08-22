@@ -8,6 +8,18 @@
  * When the clicks on the button that says "Alert Me!", it should display an alert.
  * @see https://developer.mozilla.org/en-US/docs/Web/API/Window/alert
  */
+(function (){
+const button = document.querySelector("#alert1");
+const handleClick = () => {
+  alert("alert");
+
+};
+button.addEventListener("click",handleClick);
+})();
+// console.log(alert.classList.contains("Alert Me"));
+// if (alert.classList.contains("Alert Me"));
+// console.log("alert");
+
 
 /**
  * Challenge 2: Disable a button that will charge a credit card.
@@ -16,7 +28,14 @@
  * 1. Disable the button when it is clicked.
  * 2. Change the text to say e.g. "Loading ..." once it is clicked.
  */
-
+(function(){
+  const button = document.querySelector("#alert2");
+  const disableBtn = () => {
+    button.disabled = "disabled";
+    button.textContent = "Loading";
+  }
+  button.addEventListener("click", disableBtn)
+})();
 /**
  * Challenge 3: Show comments for the news story.
  *
@@ -27,14 +46,35 @@
  * BONUS: Clicking on the button should toggle instead of just show the comments.
  * If the comments are open, change the button text from "View Comments" to "Hide Comments".
  */
+(function(){
+  const button = document.querySelector("#alert3");
+  const comment = () => {
+    const showHide = document.querySelector("#comments");
+    console.log(showHide);
+    // button.classList.remove("hidden");
+    showHide.classList.toggle("hidden");
+    if (showHide.classList.contains("hidden")) {
+      button.textContent = "Hide Comments";
+    };
+    
 
+  };
+  button.addEventListener("click", comment);
+
+})();
 /**
  * Challenge 4: Rendering what a user is typing on the page.
  *
  * When the user types inside the textbook labeled "Enter mystery text here",
  * it should display what the user is typing in the <div></div> tags below.
  */
+(function(){
+  const section = document.querySelector("#alert4");
+  const CaptureText = () => {
 
+  }
+
+})();
 /**
  * Challenge 5: Display the results of the world's most pointless search engine.
  *
