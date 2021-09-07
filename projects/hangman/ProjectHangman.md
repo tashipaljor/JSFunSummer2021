@@ -65,7 +65,7 @@ const wordBank = require("./word-bank.json");
 
 The first line will include the _readline-sync_ library. The second will import all the words from our word bank into an array.
 
-You should also create a _README.md_ file, which you should write in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). It should explain what the project is and how to play the game. You can find [a sample README here](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+You should also create a _README.md_ file, which you should write in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). It should explain what the project is and how to play the game. You can find [a sample README here](https://www.makeareadme.com/).
 
 ## Playing the Game
 
@@ -120,7 +120,7 @@ This won't count towards whether you pass or fail, but we encourage you to meet 
 
 - Your code must contain at least one high order function with arrays (e.g. _Array.forEach_, _Array.map_, _Array.find_, _Array.filter_ and _Array.reduce_).
 
-### Quality Requirements
+### Code Quality
 
 While you will not fail if you do not meet these quality requirements, we will ask you to resubmit your work if it is not up to a professional standard. One of the goals of this project is to help you build a portfolio. Just like an interviewer will judge you on your attire, employers will judge you on the neatness of your code.
 
