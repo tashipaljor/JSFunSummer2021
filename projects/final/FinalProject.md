@@ -212,7 +212,7 @@ AlbanyCanCode will host your project in a public space and they will be sharing 
 
 ## Graduation and Project Showcase
 
-There will be a virtual graduation and networking ceremony in October. You will receive an email from AlbanyCanCode with more information about this as we get closer to the date.
+There will be a virtual graduation and networking ceremony on October 14th. You will receive an email from AlbanyCanCode with more information about this as we get closer to the date. One or two of you will be selected to present your project.
 
 ## Project Help
 
