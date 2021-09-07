@@ -1,6 +1,6 @@
 # Final Project
 
-**Due Date: September 29, 2021 11:59pm**
+**Due Date: September 27, 2021 11:59pm**
 
 For your final project, you will be leverage an API (or APIs) to display dynamic content onto a webpage. You will choose between one of these ideas below, or come up with your own idea that uses a public API.
 
