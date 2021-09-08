@@ -27,7 +27,7 @@ AlbanyCanCode Administration should provide you access to our class's team befor
 Mondays and Wednesdays \
 5:45pm - 8:45pm \
 First day of class: 6/14/2021 \
-Last day of class: 9/8/2021 \*\
+Last day of class: 9/15/2021 \*\
 Final project due date: TBA
 
 \* While the final day of class is in early September, you will continue to work on your final project after class ends.
