@@ -16,14 +16,14 @@ import {
 
 describe("exercises/01-intro-variables-numbers/intro-variables-numbers.js", () => {
   describe("myName()", () => {
-    it("should return the student's name", () => {
+    it("should return your name", () => {
       const name = myName();
       expect(name).to.be.a("string").to.have.length.greaterThan(1);
     });
   });
 
   describe("setTeachersNames()", () => {
-    it("should return  both names of the teachers that are teaching the class", () => {
+    it("should return both names of the teachers that are teaching the class", () => {
       const teachersName = setTeachersNames("Jamal Taylor Matina Patsos");
       expect(teachersName).equal("Jamal Taylor Matina Patsos");
     });
