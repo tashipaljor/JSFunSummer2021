@@ -27,8 +27,9 @@ AlbanyCanCode Administration should provide you access to our class's team befor
 Mondays and Wednesdays \
 5:45pm - 8:45pm \
 First day of class: 6/14/2021 \
-Last day of class: 9/8/2021 \*\
-Final project due date: TBA
+Last day of class: 9/15/2021 \*\
+Final project due date: 9/27/2021 \
+Graduation date: 10/14/2021
 
 \* While the final day of class is in early September, you will continue to work on your final project after class ends.
 
@@ -72,11 +73,11 @@ In order to receive a certificate of completion, you must follow the conditions 
 There will be two projects:
 
 **First Project** \
-Due: TBA, halfway through the class \
+Due: August 16, 2021 \
 You can resubmit this project for a better grade, as long as you meet the following requirements: 1) you submit something by due date, even if it is not complete 2.) you resubmit by the last day of class.
 
 **Final Project** \
-Due: TBA \
+Due: September 27, 2021 \
 This project will be made publicly accessible. We will have a virtual graduation, where you project will be shown to employers within the community.
 
 If you do not turn in your projects, you may not receive a certificate of completion.
