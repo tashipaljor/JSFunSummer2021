@@ -176,7 +176,7 @@ You are free to pursue another project idea, as long as it:
 
 Please let Jamal and Matina known by **September 15th**. You must message them over Slack and provide them with your API's documentation. If they do not approve of your project, you will have to work with one of the suggested ideas above.
 
-## Github Repository
+## Github Repository and Pages
 
 You will need to [create a new public Github repository](https://help.github.com/en/articles/create-a-repo) for this project. It must be public. You should also include a _README.md_ and _.gitignore_ file.
 
@@ -184,6 +184,15 @@ Your _README.md_ file should be written in [Markdown](https://github.com/adam-p/
 https://github.com/othneildrew/Best-README-Template
 
 You can generate _.gitignore_ file with [gitignore.io](https://www.toptal.com/developers/gitignore). If you have a _node_modules_ folder, be sure to include it in your _.gitignore_.
+
+In addition to submitting code, you will need to submit a hosted version of your project. An easy way to do this is to publish your project with Github pages. Here are the steps:
+
+1. Open you Github repository e.g. https://github.com/my-github-username/final-project for your project in a web browser.
+2. Click on the "Settings" tab below the "Unwatch", "Star", and "Fork" buttons.
+3. In the sidebar, click on "Pages".
+4. Underneath where it says "Source", click on the "Branch" dropdown and select "Main".
+5. Hit the "Save" button.
+6. You will see the URL for your published project (e.g. https://my-github-username.github.io/final-project), but it may take up to 15 minutes before the link works. If you click on the link and click a page not found error, you can try opening it an Incognito window or another browser.
 
 ## Project Design
 
@@ -206,13 +215,16 @@ While you will not fail if you do not meet these quality requirements, we will a
 
 ## Project Submission
 
-Submit your project by sending a link to your Github repository to your instructors over Slack by the deadline. Your project does not have to be 100% complete, but it does have to be presentable to employers.
+You will submit to following to both of you instructors over Slack by the project deadline:
 
-AlbanyCanCode will host your project in a public space and they will be sharing your work with employers.
+1. The link to your Github repository.
+2. The link to you where your project is published. You can publish your project with Github Pages or you can a different hosting service.
+
+Your project does not have to be 100% complete, but it does have to be presentable to employers. AlbanyCanCode will host your project in a public space and they will be sharing your work with employers.
 
 ## Graduation and Project Showcase
 
-There will be a virtual graduation and networking ceremony on October 14th. You will receive an email from AlbanyCanCode with more information about this as we get closer to the date. One or two of you will be selected to present your project.
+There will be a virtual graduation and networking ceremony on October 14th. You will receive an email from AlbanyCanCode with more information about this as we get closer to the date. You will be ask present your project, so it should be ready to share by the project due date.
 
 ## Project Help
 
